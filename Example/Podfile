@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WOCDebugKit_Example' do
+  pod 'WOCDebugKit', :path => '../'
+
+  target 'WOCDebugKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

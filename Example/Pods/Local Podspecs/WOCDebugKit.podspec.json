@@ -1,0 +1,22 @@
+{
+  "name": "WOCDebugKit",
+  "version": "0.1.0",
+  "summary": "A short description of WOCDebugKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/廖燊/WOCDebugKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "廖燊": "13690039192@163.com"
+  },
+  "source": {
+    "git": "https://github.com/廖燊/WOCDebugKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "WOCDebugKit/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - WOCDebugKit (0.1.0)
+
+DEPENDENCIES:
+  - WOCDebugKit (from `../`)
+
+EXTERNAL SOURCES:
+  WOCDebugKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WOCDebugKit: acecfa4f9137be5b93929055e52fd5626fdf54f3
+
+PODFILE CHECKSUM: 53d44f3f4eec360930170d360699f79f27a0153a
+
+COCOAPODS: 1.11.3

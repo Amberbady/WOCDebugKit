@@ -1,0 +1,6 @@
+framework module WOCDebugKit {
+  umbrella header "WOCDebugKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
