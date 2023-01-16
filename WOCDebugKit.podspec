@@ -28,9 +28,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/廖燊/WOCDebugKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'WOCDebugKit/Classes/**/*'
+  
+  s.subspec 'WOCDebugKit' do |ss|
+      ss.source_files = 'WOCDebugKit/Classes/WOCDebugKit/**/*.{h,m}'
+  end
   
   s.resource_bundles = {
     'WOCDebugKit' => ['WOCDebugKit/Assets/*.png']
