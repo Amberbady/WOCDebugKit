@@ -28,10 +28,5 @@
         self.reloadData();
     }
     
-    //cell被点击回调
-    if (self.didCellSelect){
-        self.didCellSelect();
-    }
-    
 }
 @end

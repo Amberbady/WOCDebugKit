@@ -9,8 +9,7 @@
 #import "LSTableViewCell.h"
 #import "UIView+LSCategory.h"
 #import "UIResponder+SCRouter.h"
-#import "DoraemonCacheManager.h"
-#import "DoraemonHomeWindow.h"
+extern NSString *const kEventProxyRequest;
 @implementation LSTableViewCell
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
@@ -41,8 +40,9 @@
 }
 
 - (void)touchAction{
-    [[DoraemonCacheManager sharedInstance] saveDaraemonKitSwitch:YES];
-    exit(0);
+    
+    [self routerEventForName:kEventProxyRequest paramater:nil];
+
 }
 
 - (void)setupCellWithRowData:(NSString *)rowData{

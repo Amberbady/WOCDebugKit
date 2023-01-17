@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0CB8A879AD13E0497F42189A /* Pods_WOCDebugKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590B100854EC6BF6BA8791E9 /* Pods_WOCDebugKit_Tests.framework */; };
+		4B638BC1297680440011A9D5 /* LSSCEventProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B638BBF297680440011A9D5 /* LSSCEventProxy.m */; };
 		4BA6BB9F2976433B00EA2870 /* LSTestVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6BB9C2976433B00EA2870 /* LSTestVM.m */; };
 		4BA6BBA02976433B00EA2870 /* LSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6BB9E2976433B00EA2870 /* LSTableViewCell.m */; };
 		4BA6BBA52976434800EA2870 /* UIView+LSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6BBA22976434800EA2870 /* UIView+LSCategory.m */; };
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		1BC10D986A406C313A569359 /* WOCDebugKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WOCDebugKit.podspec; path = ../WOCDebugKit.podspec; sourceTree = "<group>"; };
 		29B457A72F96BC02C27F8657 /* Pods_WOCDebugKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WOCDebugKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B638BBF297680440011A9D5 /* LSSCEventProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSSCEventProxy.m; sourceTree = "<group>"; };
+		4B638BC0297680440011A9D5 /* LSSCEventProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSCEventProxy.h; sourceTree = "<group>"; };
 		4BA6BB9B2976433B00EA2870 /* LSTestVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTestVM.h; sourceTree = "<group>"; };
 		4BA6BB9C2976433B00EA2870 /* LSTestVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTestVM.m; sourceTree = "<group>"; };
 		4BA6BB9D2976433B00EA2870 /* LSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTableViewCell.h; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 		6003F593195388D20070C39A /* Example for WOCDebugKit */ = {
 			isa = PBXGroup;
 			children = (
+				4B638BC0297680440011A9D5 /* LSSCEventProxy.h */,
+				4B638BBF297680440011A9D5 /* LSSCEventProxy.m */,
 				4BA6BBA42976434800EA2870 /* UIView+LSCategory.h */,
 				4BA6BBA22976434800EA2870 /* UIView+LSCategory.m */,
 				4BA6BBA12976434800EA2870 /* WOCAppDelegate.h */,
@@ -396,6 +401,7 @@
 				4BA6BBA62976434800EA2870 /* WOCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WOCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				4B638BC1297680440011A9D5 /* LSSCEventProxy.m in Sources */,
 				4BA6BBA02976433B00EA2870 /* LSTableViewCell.m in Sources */,
 				4BA6BB9F2976433B00EA2870 /* LSTestVM.m in Sources */,
 				4BA6BBA52976434800EA2870 /* UIView+LSCategory.m in Sources */,
