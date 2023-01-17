@@ -2,6 +2,9 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
+  - LookinServer (1.1.2):
+    - LookinServer/Core (= 1.1.2)
+  - LookinServer/Core (1.1.2)
   - LSTableTool (0.1.0):
     - LSTableTool/Header (= 0.1.0)
     - LSTableTool/LSEazyTableView (= 0.1.0)
@@ -15,9 +18,9 @@ PODS:
   - WOCDebugKit (0.1.0):
     - FMDB
     - Masonry
-    - WOCDebugKit/Base (= 0.1.0)
+    - WOCDebugKit/Resource (= 0.1.0)
     - WOCDebugKit/Util (= 0.1.0)
-  - WOCDebugKit/Base (0.1.0):
+  - WOCDebugKit/Resource (0.1.0):
     - FMDB
     - Masonry
   - WOCDebugKit/Util (0.1.0):
@@ -26,6 +29,7 @@ PODS:
 
 DEPENDENCIES:
   - FMDB
+  - LookinServer
   - "LSTableTool (from `git@github.com:Amberbady/LSTableTool.git`, commit `6f751a8`)"
   - Masonry (= 1.1.0)
   - WOCDebugKit (from `../`)
@@ -33,6 +37,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FMDB
+    - LookinServer
     - Masonry
 
 EXTERNAL SOURCES:
@@ -49,10 +54,11 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  LookinServer: bb667a77f1ee594a8e91226e729dbe49f3401f5c
   LSTableTool: 13db1726e89998af56781b03ecfd688c54063283
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  WOCDebugKit: 2bf4d0777f098e0ba5980b49e6ed6dd60e276248
+  WOCDebugKit: f2084b019715ad2cafa83e1b16f645da2a437af8
 
-PODFILE CHECKSUM: ca84df6099c32eec89aff8208fc848e28cd60914
+PODFILE CHECKSUM: a60b0cf97c0258c38a097c764bcb5fa64ab7c63a
 
 COCOAPODS: 1.11.3

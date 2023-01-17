@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0CB8A879AD13E0497F42189A /* Pods_WOCDebugKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590B100854EC6BF6BA8791E9 /* Pods_WOCDebugKit_Tests.framework */; };
+		4BA6BB9F2976433B00EA2870 /* LSTestVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6BB9C2976433B00EA2870 /* LSTestVM.m */; };
+		4BA6BBA02976433B00EA2870 /* LSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6BB9E2976433B00EA2870 /* LSTableViewCell.m */; };
+		4BA6BBA52976434800EA2870 /* UIView+LSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6BBA22976434800EA2870 /* UIView+LSCategory.m */; };
+		4BA6BBA62976434800EA2870 /* WOCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6BBA32976434800EA2870 /* WOCAppDelegate.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,8 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1BC10D986A406C313A569359 /* WOCDebugKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WOCDebugKit.podspec; path = ../WOCDebugKit.podspec; sourceTree = "<group>"; };
+		1BC10D986A406C313A569359 /* WOCDebugKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WOCDebugKit.podspec; path = ../WOCDebugKit.podspec; sourceTree = "<group>"; };
 		29B457A72F96BC02C27F8657 /* Pods_WOCDebugKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WOCDebugKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA6BB9B2976433B00EA2870 /* LSTestVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTestVM.h; sourceTree = "<group>"; };
+		4BA6BB9C2976433B00EA2870 /* LSTestVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTestVM.m; sourceTree = "<group>"; };
+		4BA6BB9D2976433B00EA2870 /* LSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTableViewCell.h; sourceTree = "<group>"; };
+		4BA6BB9E2976433B00EA2870 /* LSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTableViewCell.m; sourceTree = "<group>"; };
+		4BA6BBA12976434800EA2870 /* WOCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOCAppDelegate.h; sourceTree = "<group>"; };
+		4BA6BBA22976434800EA2870 /* UIView+LSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LSCategory.m"; sourceTree = "<group>"; };
+		4BA6BBA32976434800EA2870 /* WOCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOCAppDelegate.m; sourceTree = "<group>"; };
+		4BA6BBA42976434800EA2870 /* UIView+LSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LSCategory.h"; sourceTree = "<group>"; };
 		590B100854EC6BF6BA8791E9 /* Pods_WOCDebugKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WOCDebugKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* WOCDebugKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WOCDebugKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,10 +74,10 @@
 		6A01C3E5820866B3E3B56922 /* Pods-WOCDebugKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WOCDebugKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WOCDebugKit_Tests/Pods-WOCDebugKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB25CA8DED7021DA90F33DD5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CB25CA8DED7021DA90F33DD5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CBC96388D49652C825F8115C /* Pods-WOCDebugKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WOCDebugKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-WOCDebugKit_Example/Pods-WOCDebugKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CC1803F71218A9421A2A55FD /* Pods-WOCDebugKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WOCDebugKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-WOCDebugKit_Tests/Pods-WOCDebugKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E05ABC8B9B54859F32EEE867 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E05ABC8B9B54859F32EEE867 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FE4A3EC21C24DC2C571AB5CB /* Pods-WOCDebugKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WOCDebugKit_Example.release.xcconfig"; path = "Target Support Files/Pods-WOCDebugKit_Example/Pods-WOCDebugKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +144,14 @@
 		6003F593195388D20070C39A /* Example for WOCDebugKit */ = {
 			isa = PBXGroup;
 			children = (
+				4BA6BBA42976434800EA2870 /* UIView+LSCategory.h */,
+				4BA6BBA22976434800EA2870 /* UIView+LSCategory.m */,
+				4BA6BBA12976434800EA2870 /* WOCAppDelegate.h */,
+				4BA6BBA32976434800EA2870 /* WOCAppDelegate.m */,
+				4BA6BB9D2976433B00EA2870 /* LSTableViewCell.h */,
+				4BA6BB9E2976433B00EA2870 /* LSTableViewCell.m */,
+				4BA6BB9B2976433B00EA2870 /* LSTestVM.h */,
+				4BA6BB9C2976433B00EA2870 /* LSTestVM.m */,
 				6003F59C195388D20070C39A /* WOCAppDelegate.h */,
 				6003F59D195388D20070C39A /* WOCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +213,6 @@
 				6A01C3E5820866B3E3B56922 /* Pods-WOCDebugKit_Tests.debug.xcconfig */,
 				CC1803F71218A9421A2A55FD /* Pods-WOCDebugKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +277,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -348,6 +368,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-WOCDebugKit_Example/Pods-WOCDebugKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/LSTableTool/LSTableTool.framework",
+				"${BUILT_PRODUCTS_DIR}/LookinServer/LookinServer.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/WOCDebugKit/WOCDebugKit.framework",
 			);
@@ -355,6 +376,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LSTableTool.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LookinServer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WOCDebugKit.framework",
 			);
@@ -371,8 +393,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* WOCAppDelegate.m in Sources */,
+				4BA6BBA62976434800EA2870 /* WOCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WOCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				4BA6BBA02976433B00EA2870 /* LSTableViewCell.m in Sources */,
+				4BA6BB9F2976433B00EA2870 /* LSTestVM.m in Sources */,
+				4BA6BBA52976434800EA2870 /* UIView+LSCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

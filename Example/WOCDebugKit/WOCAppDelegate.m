@@ -7,13 +7,33 @@
 //
 
 #import "WOCAppDelegate.h"
-
+#import "DoraemonCacheManager.h"
+#import "DoraemonManager.h"
 @implementation WOCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+#ifdef DEBUG
+    if ([[DoraemonCacheManager sharedInstance] daraemonKitSwitch]) {
+        [[DoraemonManager shareInstance] install];
+   
+        [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(notifyKeyboardWillShow) name:UIKeyboardWillShowNotification object:nil];
+    }
+#endif
     return YES;
+}
+
+- (void)notifyKeyboardWillShow {
+
+#ifdef DEBUG
+    for (UIWindow *window in UIApplication.sharedApplication.windows) {
+        
+        if (window.windowLevel == 10000001.0) {
+            
+            window.bounds = UIScreen.mainScreen.bounds;
+        }
+    }
+#endif
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

@@ -39,8 +39,8 @@
       "source_files": "WOCDebugKit/Classes/Util/**/*.{h,m}"
     },
     {
-      "name": "Base",
-      "source_files": "WOCDebugKit/Classes/Base/**/*.{h,m}"
+      "name": "Resource",
+      "source_files": "WOCDebugKit/Classes/Resource/*.png"
     }
   ]
 }
