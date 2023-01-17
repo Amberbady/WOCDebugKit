@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImage (Doraemon)
 
-+ (nullable UIImage *)doraemon_imageNamed:(NSString *)name __attribute((deprecated("已废弃，请使用doraemon_xcassetImageNamed")));
++ (nullable UIImage *)doraemon_imageNamed:(NSString *)name;
 
 + (nullable UIImage *)doraemon_xcassetImageNamed:(NSString *)name;
 

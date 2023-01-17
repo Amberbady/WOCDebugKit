@@ -11,20 +11,18 @@
 @implementation UIImage (Doraemon)
 
 + (nullable UIImage *)doraemon_imageNamed:(NSString *)name{
-    if(name &&
-       ![name isEqualToString:@""]){
-        NSBundle *bundle = [NSBundle bundleForClass:NSClassFromString(@"DoraemonManager")];
-        NSURL *url = [bundle URLForResource:@"DoraemonKit" withExtension:@"bundle"];
-        if(!url) return [UIImage new];
-        NSBundle *imageBundle = [NSBundle bundleWithURL:url];
-        
+    
+    if (name && ![name isEqualToString:@""]) {
         NSString *imageName = nil;
         CGFloat scale = [UIScreen mainScreen].scale;
-        if (ABS(scale-3) <= 0.001) {
+        if (ABS(scale-3) <= 0.001){
             imageName = [NSString stringWithFormat:@"%@@3x",name];
-        } else {
+        }else if(ABS(scale-2) <= 0.001){
             imageName = [NSString stringWithFormat:@"%@@2x",name];
+        }else{
+            imageName = name;
         }
+        NSBundle *imageBundle = [NSBundle mainBundle];
         UIImage *image = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:imageName ofType:@"png"]];
         if (!image) {
             image = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:name ofType:@"png"]];
@@ -42,7 +40,7 @@
     if(name &&
        ![name isEqualToString:@""]){
         NSBundle *bundle = [NSBundle bundleForClass:NSClassFromString(@"DoraemonManager")];
-        NSURL *url = [bundle URLForResource:@"DoraemonKit" withExtension:@"bundle"];
+        NSURL *url = [bundle URLForResource:@"WOCDebugKit" withExtension:@"bundle"];
         if(!url) return [UIImage new];
         NSBundle *imageBundle = [NSBundle bundleWithURL:url];
         UIImage *image = [UIImage imageNamed:name inBundle:imageBundle compatibleWithTraitCollection:nil];
@@ -51,6 +49,7 @@
     
     return nil;
 }
+
 
 //压缩图片尺寸 等比缩放 通过计算得到缩放系数
 - (nullable UIImage*)doraemon_scaledToSize:(CGSize)newSize{

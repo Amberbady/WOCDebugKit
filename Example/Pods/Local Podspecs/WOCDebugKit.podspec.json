@@ -32,15 +32,5 @@
     "FMDB": [
 
     ]
-  },
-  "subspecs": [
-    {
-      "name": "Util",
-      "source_files": "WOCDebugKit/Classes/Util/**/*.{h,m}"
-    },
-    {
-      "name": "Resource",
-      "source_files": "WOCDebugKit/Classes/Resource/*.png"
-    }
-  ]
+  }
 }
