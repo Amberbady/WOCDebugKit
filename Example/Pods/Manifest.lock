@@ -15,9 +15,9 @@ PODS:
   - WOCDebugKit (0.1.0):
     - FMDB
     - Masonry
-    - WOCDebugKit/Resource (= 0.1.0)
+    - WOCDebugKit/Base (= 0.1.0)
     - WOCDebugKit/Util (= 0.1.0)
-  - WOCDebugKit/Resource (0.1.0):
+  - WOCDebugKit/Base (0.1.0):
     - FMDB
     - Masonry
   - WOCDebugKit/Util (0.1.0):
@@ -51,7 +51,7 @@ SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   LSTableTool: 13db1726e89998af56781b03ecfd688c54063283
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  WOCDebugKit: f2084b019715ad2cafa83e1b16f645da2a437af8
+  WOCDebugKit: 2bf4d0777f098e0ba5980b49e6ed6dd60e276248
 
 PODFILE CHECKSUM: ca84df6099c32eec89aff8208fc848e28cd60914
 
