@@ -35,8 +35,12 @@
   },
   "subspecs": [
     {
-      "name": "WOCDebugKit",
-      "source_files": "WOCDebugKit/Classes/WOCDebugKit/**/*.{h,m}"
+      "name": "Util",
+      "source_files": "WOCDebugKit/Classes/Util/**/*.{h,m}"
+    },
+    {
+      "name": "Resource",
+      "source_files": "WOCDebugKit/Classes/Resource/*.png"
     }
   ]
 }

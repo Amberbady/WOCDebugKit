@@ -36,6 +36,10 @@ TODO: Add long description of the pod here.
       ss.source_files = 'WOCDebugKit/Classes/Util/**/*.{h,m}'
   end
   
+  s.subspec 'Resource' do |ss|
+      ss.source_files = 'WOCDebugKit/Classes/Resource/*.png'
+  end
+  
   s.resource_bundles = {
     'WOCDebugKit' => ['WOCDebugKit/Assets/*.png']
   }
