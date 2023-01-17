@@ -32,8 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'WOCDebugKit/Classes/**/*'
   
-  s.subspec 'WOCDebugKit' do |ss|
-      ss.source_files = 'WOCDebugKit/Classes/WOCDebugKit/**/*.{h,m}'
+  s.subspec 'Util' do |ss|
+      ss.source_files = 'WOCDebugKit/Classes/Util/**/*.{h,m}'
   end
   
   s.resource_bundles = {
