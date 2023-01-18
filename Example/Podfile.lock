@@ -10,10 +10,18 @@ PODS:
     - LSTableTool/LSEazyTableView (= 0.1.0)
     - LSTableTool/LSResponderChainPass (= 0.1.0)
     - LSTableTool/Manager (= 0.1.0)
+    - LSTableTool/Picasso (= 0.1.0)
+    - LSTableTool/PopView (= 0.1.0)
+    - LSTableTool/Resources (= 0.1.0)
   - LSTableTool/Header (0.1.0)
   - LSTableTool/LSEazyTableView (0.1.0)
   - LSTableTool/LSResponderChainPass (0.1.0)
   - LSTableTool/Manager (0.1.0)
+  - LSTableTool/Picasso (0.1.0):
+    - LSTableTool/Picasso/Pop (= 0.1.0)
+  - LSTableTool/Picasso/Pop (0.1.0)
+  - LSTableTool/PopView (0.1.0)
+  - LSTableTool/Resources (0.1.0)
   - Masonry (1.1.0)
   - WOCDebugKit (0.1.0):
     - FMDB
@@ -22,7 +30,7 @@ PODS:
 DEPENDENCIES:
   - FMDB
   - LookinServer
-  - "LSTableTool (from `git@github.com:Amberbady/LSTableTool.git`, commit `6f751a8`)"
+  - "LSTableTool (from `git@github.com:Amberbady/LSTableTool.git`, commit `6911e68`)"
   - Masonry (= 1.1.0)
   - WOCDebugKit (from `../`)
 
@@ -34,23 +42,23 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   LSTableTool:
-    :commit: 6f751a8
+    :commit: '6911e68'
     :git: "git@github.com:Amberbady/LSTableTool.git"
   WOCDebugKit:
     :path: "../"
 
 CHECKOUT OPTIONS:
   LSTableTool:
-    :commit: 6f751a8
+    :commit: '6911e68'
     :git: "git@github.com:Amberbady/LSTableTool.git"
 
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   LookinServer: bb667a77f1ee594a8e91226e729dbe49f3401f5c
-  LSTableTool: 13db1726e89998af56781b03ecfd688c54063283
+  LSTableTool: fdb056546e5779285b3fd8f5bae1dde124a0d8d2
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   WOCDebugKit: b710b03dcf55539318ce4c848f63bf58ab8188da
 
-PODFILE CHECKSUM: a60b0cf97c0258c38a097c764bcb5fa64ab7c63a
+PODFILE CHECKSUM: e0f8cd869c083e6e65b2be5962a00e1fa8987b3e
 
 COCOAPODS: 1.11.3

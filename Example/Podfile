@@ -7,7 +7,7 @@ target 'WOCDebugKit_Example' do
   pod 'Masonry', '1.1.0', :modular_headers => true
   pod 'FMDB'
   pod 'LookinServer', :configurations => ['Debug'] #调试工具
-  pod 'LSTableTool', :git => 'git@github.com:Amberbady/LSTableTool.git' , :commit => '6f751a8'
+  pod 'LSTableTool', :git => 'git@github.com:Amberbady/LSTableTool.git' , :commit => '6911e68'
   target 'WOCDebugKit_Tests' do
     inherit! :search_paths
 
