@@ -42,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1BC10D986A406C313A569359 /* WOCDebugKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WOCDebugKit.podspec; path = ../WOCDebugKit.podspec; sourceTree = "<group>"; };
+		1BC10D986A406C313A569359 /* WOCDebugKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WOCDebugKit.podspec; path = ../WOCDebugKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		29B457A72F96BC02C27F8657 /* Pods_WOCDebugKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WOCDebugKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B638BBF297680440011A9D5 /* LSSCEventProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSSCEventProxy.m; sourceTree = "<group>"; };
 		4B638BC0297680440011A9D5 /* LSSCEventProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSCEventProxy.h; sourceTree = "<group>"; };

@@ -21,7 +21,7 @@
   "source_files": "WOCDebugKit/Classes/**/*",
   "resource_bundles": {
     "WOCDebugKit": [
-      "WOCDebugKit/Assets/*.png"
+      "WOCDebugKit/Assets/Resource/**/*.png"
     ]
   },
   "public_header_files": "Pod/Classes/WOCDebugKit/DoraemonKit.h",

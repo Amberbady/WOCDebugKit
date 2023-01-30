@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/廖燊/WOCDebugKit'
+  s.homepage         = 'https://github.com/Amberbady/WOCDebugKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '廖燊' => '13690039192@163.com' }
-  s.source           = { :git => 'https://github.com/廖燊/WOCDebugKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Amberbady/WOCDebugKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'WOCDebugKit/Classes/**/*'
   
   s.resource_bundles = {
-    'WOCDebugKit' => ['WOCDebugKit/Assets/*.png']
+    'WOCDebugKit' => ['WOCDebugKit/Assets/Resource/**/*.png']
   }
 
   s.public_header_files = 'Pod/Classes/WOCDebugKit/DoraemonKit.h'
